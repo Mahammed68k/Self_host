@@ -1,0 +1,6 @@
+{
+  "name": "VaultHost: Self-Hosted Private Cloud & SFTP Stack",
+  "description": "Interactive configuration workbench, architecture visualizer, and deployment guide for self-hosted private cloud and SFTP over Tailscale.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
