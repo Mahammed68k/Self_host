@@ -41,6 +41,7 @@ Both setup methods use **Tailscale** to create an encrypted, invisible tunnel be
 | **Backups & Redundancy** | Manual user copy or custom Robocopy scripts | Automated 3-2-1 BorgBackup snapshotting + Rclone offsite sync |
 | **Multi-User Access** | Basic FTP server user accounts with folder mappings | Enterprise user management, public share links, password expirations |
 | **Port Forwarding Risk** | 🛡️ **Zero** (Protected by Tailscale WireGuard) | 🛡️ **Zero** (Protected by Tailscale WireGuard & Serve) |
+| **Detailed Guide** | [1.Direct SFTP Access via FileZilla Server](./1.Direct%20SFTP%20Access%20via%20FileZilla%20Server(IDEA).md) | [2.Self-Hosted-Private-Cloud-AIO](./2.Self-Hosted-Private-Cloud-AIO(IDEA).md) |
 
 ---
 
