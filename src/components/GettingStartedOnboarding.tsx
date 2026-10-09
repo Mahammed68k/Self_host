@@ -219,7 +219,7 @@ powercfg /change standby-timeout-ac 0
 powercfg -setacvalueindex SCHEME_CURRENT 4f971e89-eebd-4455-a8de-9e59040e7347 5ca83367-6e45-459f-a27b-476b1d01c936 0
 powercfg -setactive SCHEME_CURRENT
 
-Write-Host "VaultHost SFTP host firewall and power settings verified!" -ForegroundColor Green`;
+Write-Host "VaultGuide SFTP host firewall and power settings verified!" -ForegroundColor Green`;
 
   // Command for Nextcloud Minute 2
   const nextcloudDockerCmd = `docker run -d \`

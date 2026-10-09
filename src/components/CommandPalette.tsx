@@ -240,7 +240,7 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
             <span>·</span>
             <span><kbd className="font-mono text-zinc-400">ESC</kbd> to close</span>
           </div>
-          <span className="font-mono text-zinc-400">VaultHost Search</span>
+          <span className="font-mono text-zinc-400">VaultGuide Search</span>
         </div>
       </div>
     </div>

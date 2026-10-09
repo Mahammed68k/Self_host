@@ -82,7 +82,7 @@ export default function App() {
               <Shield className="w-3.5 h-3.5" />
             </div>
             <span className="text-sm font-bold tracking-tight text-white group-hover:text-cyan-400 transition-colors">
-              VaultHost
+              VaultGuide
             </span>
           </button>
 

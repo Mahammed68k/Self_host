@@ -46,7 +46,7 @@ export const TermsPoliciesModal: React.FC<TermsPoliciesModalProps> = ({
             <Scale className="w-5 h-5 text-cyan-400" />
             <div>
               <h2 id="terms-modal-title" className="text-base font-bold text-white tracking-tight">
-                VaultHost Compliance, Terms & Policies
+                VaultGuide Compliance, Terms & Policies
               </h2>
               <p className="text-xs text-slate-400 mt-0.5">
                 Self-hosted infrastructure guidelines, zero-telemetry commitment, and privacy rights.
@@ -111,7 +111,7 @@ export const TermsPoliciesModal: React.FC<TermsPoliciesModalProps> = ({
                 <div>
                   <h3 className="font-bold text-white text-sm">Self-Hosted Architecture Agreement</h3>
                   <p className="text-slate-400 mt-1">
-                    Last updated: October 2026. VaultHost is an open-source deployment framework and operations runbook for self-hosted private cloud instances running on Windows 10/11 hosts.
+                    Last updated: October 2026. VaultGuide is an open-source deployment framework and operations runbook for self-hosted private cloud instances running on Windows 10/11 hosts.
                   </p>
                 </div>
               </div>
@@ -126,14 +126,14 @@ export const TermsPoliciesModal: React.FC<TermsPoliciesModalProps> = ({
               <section className="space-y-2">
                 <h4 className="text-sm font-bold text-white">2. Absolute Data Sovereignty & Partition Ownership</h4>
                 <p>
-                  All files, personal photos, databases, documents, and credentials stored on <code className="text-cyan-300 font-mono">D:\PersonalCloud</code> or equivalent local partitions remain the 100% exclusive property of the Operator. VaultHost has no backdoors, proprietary licensing restrictions, escrow keys, or access privileges to your data.
+                  All files, personal photos, databases, documents, and credentials stored on <code className="text-cyan-300 font-mono">D:\PersonalCloud</code> or equivalent local partitions remain the 100% exclusive property of the Operator. VaultGuide has no backdoors, proprietary licensing restrictions, escrow keys, or access privileges to your data.
                 </p>
               </section>
 
               <section className="space-y-2">
                 <h4 className="text-sm font-bold text-white">3. Third-Party Software & Open-Source Licenses</h4>
                 <p>
-                  VaultHost orchestrates established third-party open-source software, including:
+                  VaultGuide orchestrates established third-party open-source software, including:
                 </p>
                 <ul className="list-disc list-inside space-y-1 pl-2 text-slate-400">
                   <li><strong>Tailscale:</strong> Governed by the Tailscale terms and BSD-3-Clause WireGuard implementations.</li>
@@ -146,14 +146,14 @@ export const TermsPoliciesModal: React.FC<TermsPoliciesModalProps> = ({
               <section className="space-y-2">
                 <h4 className="text-sm font-bold text-white">4. 3-2-1 Backup & Disaster Recovery Disclaimer</h4>
                 <p>
-                  While VaultHost configures resilient local snapshotting and automated Rclone offsite sync, no filesystem is immune to hardware wear, power surges, or mechanical drive failures. The Operator is strongly advised to maintain the 3-2-1 backup pipeline (3 copies of data, across 2 different storage media, with 1 offsite encrypted snapshot).
+                  While VaultGuide configures resilient local snapshotting and automated Rclone offsite sync, no filesystem is immune to hardware wear, power surges, or mechanical drive failures. The Operator is strongly advised to maintain the 3-2-1 backup pipeline (3 copies of data, across 2 different storage media, with 1 offsite encrypted snapshot).
                 </p>
               </section>
 
               <section className="space-y-2">
                 <h4 className="text-sm font-bold text-white">5. Limitation of Liability</h4>
                 <p>
-                  VaultHost and its contributors shall not be held liable for accidental data loss, hardware malfunctions, ISP network disruptions, or unauthorized access resulting from operator misconfigurations (e.g., manually opening public router ports).
+                  VaultGuide and its contributors shall not be held liable for accidental data loss, hardware malfunctions, ISP network disruptions, or unauthorized access resulting from operator misconfigurations (e.g., manually opening public router ports).
                 </p>
               </section>
             </div>
@@ -174,7 +174,7 @@ export const TermsPoliciesModal: React.FC<TermsPoliciesModalProps> = ({
               <section className="space-y-2">
                 <h4 className="text-sm font-bold text-white">1. No Central Servers & No Telemetry</h4>
                 <p>
-                  VaultHost contains no tracking beacons, Google Analytics, telemetry pingbacks, or diagnostic phone-homes. When you browse files, stream videos, or upload camera photos over your 5G device, all traffic travels strictly point-to-point via WireGuard encryption directly to your home laptop.
+                  VaultGuide contains no tracking beacons, Google Analytics, telemetry pingbacks, or diagnostic phone-homes. When you browse files, stream videos, or upload camera photos over your 5G device, all traffic travels strictly point-to-point via WireGuard encryption directly to your home laptop.
                 </p>
               </section>
 
@@ -208,7 +208,7 @@ export const TermsPoliciesModal: React.FC<TermsPoliciesModalProps> = ({
                 <div>
                   <h3 className="font-bold text-white text-sm">Network Security & Hardening Model</h3>
                   <p className="text-slate-400 mt-1">
-                    Technical overview of how VaultHost achieves enterprise security without exposing public router ports.
+                    Technical overview of how VaultGuide achieves enterprise security without exposing public router ports.
                   </p>
                 </div>
               </div>
@@ -216,7 +216,7 @@ export const TermsPoliciesModal: React.FC<TermsPoliciesModalProps> = ({
               <section className="space-y-2">
                 <h4 className="text-sm font-bold text-white">1. Zero Port Forwarding Principle</h4>
                 <p>
-                  Traditional self-hosting requires opening router ports 22, 80, or 443 to the open web, exposing your home network to automated bot scans, DDoS attacks, and dictionary brute-force exploits. VaultHost operates exclusively via encrypted Tailscale WireGuard mesh tunnels, leaving <strong>0 inbound listening ports on your router</strong>.
+                  Traditional self-hosting requires opening router ports 22, 80, or 443 to the open web, exposing your home network to automated bot scans, DDoS attacks, and dictionary brute-force exploits. VaultGuide operates exclusively via encrypted Tailscale WireGuard mesh tunnels, leaving <strong>0 inbound listening ports on your router</strong>.
                 </p>
               </section>
 
@@ -246,7 +246,7 @@ export const TermsPoliciesModal: React.FC<TermsPoliciesModalProps> = ({
 
           <div className="flex items-center gap-2">
             <button
-              onClick={() => handleCopyText(`VaultHost ${activeDoc === 'terms' ? 'Terms of Service' : activeDoc === 'privacy' ? 'Privacy Policy' : 'Security Model'} - Verified October 2026. Zero Telemetry, 100% Local Storage Sovereignty.`)}
+              onClick={() => handleCopyText(`VaultGuide ${activeDoc === 'terms' ? 'Terms of Service' : activeDoc === 'privacy' ? 'Privacy Policy' : 'Security Model'} - Verified October 2026. Zero Telemetry, 100% Local Storage Sovereignty.`)}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-800 bg-slate-900 text-slate-300 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer"
             >
               {copied ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}

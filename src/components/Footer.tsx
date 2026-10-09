@@ -14,9 +14,7 @@ export const Footer: React.FC<FooterProps> = ({
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-xs text-slate-500">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <span>© 2026 VaultHost Project · All Rights Reserved</span>
-            <span aria-hidden="true">·</span>
-            <span className="font-mono text-[11px] text-cyan-400/90">Open Architecture</span>
+            <span>© 2026 VaultGuide Project · All Rights Reserved</span>
           </div>
 
           <div className="flex items-center gap-4">

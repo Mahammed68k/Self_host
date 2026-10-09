@@ -80,7 +80,7 @@ export const ArchitectureView: React.FC<ArchitectureViewProps> = ({ onSelectTab,
           <div className="relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-950 shadow-2xl aspect-[16/9]">
             <img
               src="/src/assets/images/server_mesh_node_1791216991425.jpg"
-              alt="VaultHost mesh server node illustration"
+              alt="VaultGuide mesh server node illustration"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
